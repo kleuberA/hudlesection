@@ -1,6 +1,8 @@
+# Desafio da Frontend Mentor realizado com typescript.
+
 # Frontend Mentor - Huddle landing page with single introductory section
 
-![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
+![Design preview for the Huddle landing page with single introductory section](./src/assets/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
