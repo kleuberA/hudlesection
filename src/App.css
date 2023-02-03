@@ -1,0 +1,25 @@
+body{
+    background: url('./assets/images/bg-desktop.svg'),#674baf;
+}
+
+@media screen and (min-width: 200px ) and (max-width: 400px) {
+    body{
+        background: url('./assets/images/bg-mobile.svg'), #674baf;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.containerPage, .Icons{
+    animation: 5s opacityElement ease-in-out;
+    transition: .5s;
+}
+
+@keyframes opacityElement {
+    from{
+        filter: opacity(0);
+    }
+    to{
+        filter: opacity(1);
+    }
+}
